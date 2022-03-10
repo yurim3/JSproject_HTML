@@ -1,0 +1,134 @@
+*{
+    <meta property="og:title"content="제목">
+    <meta property="og:description"content="설명란">
+    <meta property="og:image"content="https://www.google.com/search?q=%EC%B5%9C%EA%B3%A0%EC%8B%AC&sxsrf=AOaemvJXfh54SZxNnhrQrXnaUwrNTbEJwA:1630591850985&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjCobSAvODyAhXXyYsBHd4vB9QQ_AUoAXoECAEQAw&biw=998&bih=632&dpr=1.5#imgrc=wzZl4PMYAitW5M">
+}
+
+.keyword {          /* 검색어 입력창 */
+    border: none;
+    margin-right: 3px;
+    border-bottom : 2px solid black;
+    outline:none;
+    background: transparent;
+    font-size: 1.5rem;
+    width: 490px;
+    height: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+select {            /* 검색 엔진 선택 상자 */                     
+    border:none;
+    outline: none;
+    width: 100px;
+    height: 60px;
+    font-size: 1.235rem;
+    font-weight: 300;
+    background: transparent;
+    color: black;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.SelectSearch {
+    width: 90px;
+    height: 30px;
+}
+
+.img-button {
+    background: transparent;
+    border: none;
+    padding-top: 14px;
+    padding-right: 17px;
+}              /* 검색 아이콘 위치 검색기능과 일렬로 배열 */
+
+.search:hover > .keyword {
+    opacity: 1;
+}
+.search:hover > select{
+    opacity: 1;
+}
+
+.type1 {    
+    text-align: center;
+    text-shadow: 5px;
+}
+.type1 a {
+    margin-left: 60px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;  
+}
+
+ul.indexMenu {
+    list-style: none; /* 동그라미글머리표 X */
+    text-align: center;
+}
+
+.indexMenu li{
+    display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
+    line-height: 100px;
+    text-transform : uppercase;
+    letter-spacing: 3px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.indexMenu li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.indexMenu li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.indexMenu li a:hover {
+    /* text-decoration: underline; */
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.indexMenu li a:active {
+    text-decoration: none;
+}
+
+.img_menu1 {
+    vertical-align: middle;
+    padding-bottom: 7px;
+    width: 45px;
+    height: 45px;
+}
+
+.img_menu2 {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.f1 {
+    width: 180px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 20px 30px 20px;
+    font-size: 11px;
+    color: black;
+    z-index: 12;
+}
+
+form.search {
+    margin-top: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px 1px rgba(110, 151, 226, 0.424);
+}

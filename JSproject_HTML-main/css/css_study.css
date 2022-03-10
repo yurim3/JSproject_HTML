@@ -1,0 +1,90 @@
+.htmlimg {
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 40px;
+    border: 2px solid;
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.ex {
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type1 {    
+    text-align: center;
+    text-shadow: 5px;
+}
+.type1 a {
+    margin-left: 60px;
+}
+.img_menu1 {
+    vertical-align: middle;
+    padding-bottom: 7px;
+    width: 45px;
+    height: 45px;
+}
+
+.img_menu2 {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.code {
+    padding-left: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.indexMenudiv {
+    padding-left: 17px;
+}
+
+ul.indexMenu {
+    list-style: none; /* 동그라미글머리표 X */
+    text-align: center;
+}
+    
+.indexMenu li{
+    display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
+    line-height: 100px;
+    text-transform : uppercase;
+    letter-spacing: 3px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.indexMenu li a:link {
+    text-decoration: none;
+    color: black;
+}
+    
+.indexMenu li a:visited {
+    text-decoration: none;
+    color: black;
+}
+    
+.indexMenu li a:hover {
+    /* text-decoration: underline; */
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+    
+.indexMenu li a:active {
+    text-decoration: none;
+}
+
+.f1 {
+    text-align: center;
+    width: 180px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 20px 30px 20px;
+    font-size: 11px;
+    color: black;
+    z-index: 12;
+}
